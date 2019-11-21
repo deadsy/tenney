@@ -3,6 +3,7 @@
 import vt3
 
 def main():
-  pass
+
+  d = vt3.vt3("/dev/ttyUSB0")
 
 main()
