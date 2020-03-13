@@ -5,5 +5,7 @@ import vt3
 def main():
 
   d = vt3.vt3("/dev/ttyUSB0")
+  d.enquire()
+  #d.get_sw_version()
 
 main()
